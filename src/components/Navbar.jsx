@@ -17,10 +17,10 @@ function Navbar() {
       </ul>
 
       <div className="flex items-center  gap-5">
-        <FiSearch className="cursor-pointer hover:text-gray-500" />
-        <FiUser className="cursor-pointer hover:text-gray-500" />
-        <FiHeart className="cursor-pointer hover:text-gray-500" />
-        <FiShoppingBag className="cursor-pointer hover:text-gray-500" />
+        <FiSearch className="cursor-pointer hover:text-gray-500 transition-colors duration-200" />
+        <FiUser className="cursor-pointer hover:text-gray-500 transition-colors duration-200" />
+        <FiHeart className="cursor-pointer hover:text-gray-500 transition-colors duration-200" />
+        <FiShoppingBag className="cursor-pointer hover:text-gray-500 transition-colors duration-200" />
       </div>
 
     </nav>
