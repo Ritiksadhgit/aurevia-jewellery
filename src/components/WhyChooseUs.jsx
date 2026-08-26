@@ -9,7 +9,7 @@ function WhyChooseUs() {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
   
-          <div className="text-center bg-white p-8 rounded-lg shadow-sm">
+          <div className="text-center bg-white p-8 rounded-lg shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300">
                 <FiAward className="text-4xl mx-auto mb-4 text-[#8B5E3C]" />
                 <h3 className="text-xl font-semibold text-[#8B5E3C]">
                   Premium Quality
@@ -20,7 +20,7 @@ function WhyChooseUs() {
                 </p>
          </div>
 
-         <div className="text-center bg-white p-8 rounded-lg shadow-sm">
+         <div className="text-center bg-white p-8 rounded-lg shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300">
                 <FiTruck className="text-4xl mx-auto mb-4 text-[#8B5E3C]" />
                 <h3 className="text-xl font-semibold text-[#8B5E3C]">
                   Fast Delivery
@@ -31,7 +31,7 @@ function WhyChooseUs() {
                 </p>
          </div>
 
-         <div className="text-center bg-white p-8 rounded-lg shadow-sm">
+         <div className="text-center bg-white p-8 rounded-lg shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300">
                 <FiShield className="text-4xl mx-auto mb-4 text-[#8B5E3C]" />
                 <h3 className="text-xl font-semibold text-[#8B5E3C]">
                   Secure Payment
