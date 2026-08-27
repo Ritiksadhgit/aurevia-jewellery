@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import WhyChooseUs from "./components/WhyChooseUs";
 import About from "./components/About";
 import Testimonials from "./components/Testimonials";
+import CTA from "./components/CTA";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <WhyChooseUs/>
       <About />
       <Testimonials />
+      <CTA />
 
     </>
   );
