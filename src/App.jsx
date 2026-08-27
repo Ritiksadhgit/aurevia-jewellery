@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import WhyChooseUs from "./components/WhyChooseUs";
 import About from "./components/About";
+import Testimonials from "./components/Testimonials";
 
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
       <FeaturedCategories />
       <WhyChooseUs/>
       <About />
+      <Testimonials />
+
     </>
   );
 }
