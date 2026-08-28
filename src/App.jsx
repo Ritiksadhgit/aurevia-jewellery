@@ -1,25 +1,20 @@
-import FeaturedCategories from "./components/FeaturedCategories";
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
-import WhyChooseUs from "./components/WhyChooseUs";
-import About from "./components/About";
-import Testimonials from "./components/Testimonials";
-import CTA from "./components/CTA";
-import Footer from "./components/Footer";
+
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+import Home from "./Home";
+import Jewellery from "./pages/Jewellery/Jewellery.jsx";
 
 
 function App() {
   return (
     <>
     
-      <Navbar/>
-      <Hero />
-      <FeaturedCategories />
-      <WhyChooseUs/>
-      <About />
-      <Testimonials />
-      <CTA />
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Home/>} />
+            <Route path="/Jewellery" element={<Jewellery/>} />
+        </Routes>
+      </BrowserRouter>
 
     </>
   );
