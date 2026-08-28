@@ -11,11 +11,11 @@ function ProductCard({ image, name, price }) {
 
       <div className="p-5">
         <h3 className="text-xl font-semibold text-[#8B5E3C]">
-          Product Name
+          {name}
         </h3>
 
         <p className="mt-2 text-gray-600">
-          ₹10,999
+          {price}
         </p>
 
         <button className="mt-4 w-full bg-[#8B5E3C] text-white py-3 rounded-md hover:opacity-90 transition">

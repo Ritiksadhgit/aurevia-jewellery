@@ -2,6 +2,7 @@
 // import { FiUser } from "react-icons/fi";
 // import { FiHeart } from "react-icons/fi";
 // import { FiShoppingBag } from "react-icons/fi";
+import { Link } from "react-router-dom";
 import { useState } from "react";
 import {
   FiSearch,
@@ -21,8 +22,8 @@ function Navbar() {
 
       <ul className="hidden md:flex gap-8">
         <li className="cursor-pointer text-sm font-medium hover:text-gray-500 transition-colors duration-200">Home</li>
-        <li className="cursor-pointer text-sm font-medium hover:text-gray-500 transition-colors duration-200">Jewellery</li>
-        <li className="cursor-pointer text-sm font-medium hover:text-gray-500 transition-colors duration-200">Collections</li>
+        <li className="cursor-pointer text-sm font-medium hover:text-gray-500 transition-colors duration-200"><Link to="/jewellery">Jewellery</Link></li>
+        <li className="cursor-pointer text-sm font-medium hover:text-gray-500 transition-colors duration-200"><Link to="/Collections">Collections</Link></li>
         <li className="cursor-pointer text-sm font-medium hover:text-gray-500 transition-colors duration-200">About</li>
         <li className="cursor-pointer text-sm font-medium hover:text-gray-500 transition-colors duration-200" >Contact</li>
       </ul>

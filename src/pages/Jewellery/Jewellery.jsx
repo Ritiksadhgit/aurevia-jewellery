@@ -1,5 +1,6 @@
 import RingProduct from "../../assets/ring-product.png";
 import NecklaceProduct from "../../assets/NecklaceProduct.png";
+import EarringsProduct from "../../assets/earrings-product.png";
 import ProductCard from "./ProductCard";
 
 function Jewellery() {
@@ -14,13 +15,19 @@ function Jewellery() {
         <ProductCard
           image={RingProduct}
           name="Elegant Gold Ring"
-          price="12999"
+          price="₹12999/-"
         />
 
         <ProductCard
          image={NecklaceProduct}
          name="Elegant Gold Necklace"
-         price="25999"
+         price="₹25999/-"
+        />
+
+        <ProductCard
+         image={EarringsProduct}
+         name="Elegant Gold Earrings"
+         price="₹8999/-"
         />
 
      </div> 
