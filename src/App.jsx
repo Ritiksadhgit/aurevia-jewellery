@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./Home";
 import Jewellery from "./pages/Jewellery/Jewellery.jsx";
 import Collections from "./pages/Collections/Collections.jsx";
+import CollectionDetails from "./pages/Collections/CollectionDetails";
 
 
 function App() {
@@ -15,9 +16,7 @@ function App() {
           <Route index element={<Home/>} />
             <Route path="/Jewellery" element={<Jewellery/>} />
             <Route path="/Collections" element={<Collections/>}/>
-            <Route path="/collections/bridal" element={<Bridal />} />
-            <Route path="/collections/everyday" element={<Everyday />} />
-            <Route path="/collections/wedding" element={<Wedding />} />
+            <Route path="/collections/:type" element={<CollectionDetails />} />
         </Routes>
       </BrowserRouter>
 
