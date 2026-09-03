@@ -32,7 +32,11 @@ function Navbar() {
         <FiSearch className="cursor-pointer hover:text-gray-500 transition-colors duration-200" />
         <FiUser className="cursor-pointer hover:text-gray-500 transition-colors duration-200" />
         <FiHeart className="cursor-pointer hover:text-gray-500 transition-colors duration-200" />
-        <FiShoppingBag className="cursor-pointer hover:text-gray-500 transition-colors duration-200" />
+        <Link to="/Cart">
+        <FiShoppingBag
+            className="cursor-pointer hover:text-gray-500 transition-colors duration-200"
+        />
+       </Link>
       </div>
 
     

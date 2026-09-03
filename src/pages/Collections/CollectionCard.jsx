@@ -1,11 +1,11 @@
 import { useNavigate } from "react-router-dom";
 
-function CollectionCard({ image, title }) {
+function CollectionCard({ image, title,slug }) {
 
   const navigate = useNavigate();
 
   const handleExplore = () => {
-    navigate(`/collections/${title.split(" ")[0].toLowerCase()}`);
+    navigate(`/Collections/${slug}`);
   };
 
   return (

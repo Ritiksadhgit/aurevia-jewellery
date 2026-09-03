@@ -17,16 +17,19 @@ function Collections() {
         <CollectionCard
           image={Bridal}
           title="Bridal Collection"
+          slug="bridal"
         />
 
         <CollectionCard
           image={Everyday}
           title="Everyday Collection"
+           slug="everyday"
         />
 
         <CollectionCard
           image={Wedding}
           title="Wedding Collection"
+          slug="wedding"
         />
 
       </div>
